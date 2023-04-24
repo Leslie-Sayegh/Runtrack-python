@@ -1,3 +1,4 @@
+#créer une Classe Opération et imprimer l'objet
 class Opération :
  
     def __init__(self) :
