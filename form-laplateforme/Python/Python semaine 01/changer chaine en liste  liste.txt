@@ -1,0 +1,5 @@
+#changer chaine en liste  liste 
+fruits = "pomme, cerise, orange"
+fruits_liste = fruits.split("pomme, cerise, orange")
+print (fruits)
+print (fruits_liste)

@@ -1,0 +1,52 @@
+min = int(input(1))
+max = int(input(100))
+for n in range(min,max + 1) :
+    if n > 1:
+        for i in range (2,n) :
+            if (n % i) == 0 :
+                breack
+        else :
+            print (n)
+
+
+soluce
+chaine="abcdefghijklmnopqrstuvwxyz" * 10 
+  
+# Initialisation indice de croissance 
+i=1 
+  
+# Tant que l'indice de croissance (nb de caractères à afficher) est contenu dans les caractères restants 
+while i <= len(chaine): 
+	# On affiche les "i" premiers caractères 
+	print(chaine[:i]) 
+  
+	# On ne garde ensuite que les caractères restants à afficher 
+	chaine=chaine[i:] 
+  
+	# On incrémente l'indice de croissance 
+	i+=1 
+# while
+
+a
+bc
+def
+ghij
+klmno
+pqrstu
+vwxyzab
+cdefghij
+klmnopqrs
+tuvwxyzabc
+defghijklmn
+opqrstuvwxyz
+abcdefghijklm
+nopqrstuvwxyza
+bcdefghijklmnop
+qrstuvwxyzabcdef
+ghijklmnopqrstuvw
+xyzabcdefghijklmno
+pqrstuvwxyzabcdefgh
+ijklmnopqrstuvwxyzab
+cdefghijklmnopqrstuvw
+xyzabcdefghijklmnopqrs
+PS C:\Users\david\Desktop\Leslie\jour03> 

@@ -1,0 +1,5 @@
+alphabet : c.isalpha
+maj : c.isupper
+min:islower
+
+nombre : c.isdijit

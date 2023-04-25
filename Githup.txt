@@ -1,0 +1,89 @@
+
+## creation et import dossier githup
+
+
+david@Pc-Less MINGW64 ~/Desktop/Git/runtrack-python
+$ cd ../
+
+david@Pc-Less MINGW64 ~/Desktop/Git (master)
+$ git clone https://github.com/Leslie-Sayegh/runtrack-python.git
+$ git clone https://github.com/Leslie-Sayegh/git-begins.git
+Cloning into 'runtrack-python'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+david@Pc-Less MINGW64 ~/Desktop/Git (master)
+$ cd runtrack-python/
+
+david@Pc-Less MINGW64 ~/Desktop/Git/runtrack-python (main)
+$ git add .
+
+david@Pc-Less MINGW64 ~/Desktop/Git/runtrack-python (main)
+$ git commit -m "first"
+[main ab55bcb] first
+ 48 files changed, 709 insertions(+)
+ create mode 100644 Password generator/main.py
+ create mode 100644 Password generator/main_2.py
+ create mode 100644 Password generator/main_3
+ create mode 100644 Password generator/main_4
+ create mode 100644 Password generator/passwords.json
+ create mode 100644 jour01/job02/main.py
+ create mode 100644 jour01/job03/main.py
+ create mode 100644 jour01/job04/main.py
+ create mode 100644 jour01/job05/main.py
+ create mode 100644 jour01/job06/main.py
+ create mode 100644 jour01/job07/main.py
+ create mode 100644 jour01/job08/main.py
+ create mode 100644 jour01/runtrack python Jour1.pdf
+ create mode 100644 jour02/job01/main.py
+ create mode 100644 jour02/job02/main.py
+ create mode 100644 jour02/job03/main.py
+ create mode 100644 jour02/job04/main.py
+ create mode 100644 jour02/job05/main.py
+ create mode 100644 jour02/job06/main.py
+ create mode 100644 jour02/job07/main.py
+ create mode 100644 jour02/job08/main.py
+ create mode 100644 jour02/runtrack python Jour2.pdf
+ create mode 100644 jour03/job01/main.py
+ create mode 100644 jour03/job02/main.py
+ create mode 100644 jour03/job03/main.py
+ create mode 100644 jour03/job04/main.py
+ create mode 100644 jour03/job05/main.py
+ create mode 100644 jour03/job06/main.py
+ create mode 100644 jour03/runtrack python Jour3.pdf
+ create mode 100644 jour04/job01/main.py
+ create mode 100644 jour04/job02/main.py
+ create mode 100644 jour04/job03/main.py
+ create mode 100644 jour04/job04/main.py
+ create mode 100644 jour04/job05/main.py
+ create mode 100644 jour04/job06/main.py
+ create mode 100644 jour04/job07/main.py
+ create mode 100644 jour04/job08/main.py
+ create mode 100644 jour04/job09/main.py
+ create mode 100644 jour04/job10/main.py
+ create mode 100644 jour04/job11/main.py
+ create mode 100644 jour04/runtrack python Jour4.pdf
+ create mode 100644 jour05/job01/main.py
+ create mode 100644 jour05/job02/main.py
+ create mode 100644 jour05/job03/main.py
+ create mode 100644 jour05/job04/main.py
+ create mode 100644 jour05/job05/main.py
+ create mode 100644 jour05/job06/main.py
+ create mode 100644 jour05/runtrack python Jour5.pdf
+
+david@Pc-Less MINGW64 ~/Desktop/Git/runtrack-python (main)
+$ git push
+Enumerating objects: 95, done.
+Counting objects: 100% (95/95), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (94/94), 519.84 KiB | 8.12 MiB/s, done.
+Total 94 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Leslie-Sayegh/runtrack-python.git
+   70f6d1a..ab55bcb  main -> main
+
+david@Pc-Less MINGW64 ~/Desktop/Git/runtrack-python (main)
+$
